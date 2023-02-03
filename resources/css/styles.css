@@ -372,6 +372,9 @@ img {
   display: grid;
 }
 
+.filter-tab-active {
+  background-color: var(--body-color);
+}
 /* Activate button filter */
 
 
