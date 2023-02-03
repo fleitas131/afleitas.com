@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -12,6 +12,7 @@
       Teal: hsl(174, 63%, 62%)
   */
 
+  /*color specs*/
   --hue: 207;
   --sat: 90%;
   --lig: 61%;
@@ -24,8 +25,7 @@
   --body-color: hsl(var(--hue), 100%, 99%);
   --container-color: #fff;
 
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+/*font specs*/
   --body-font: 'Poppins', sans-serif;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -44,7 +44,7 @@
   }
 }
 
-/*=============== BASE ===============*/
+/*setup*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -101,8 +101,48 @@ img {
   gap: 1.5rem;
 }
 
-/*=============== PROFILE ===============*/
+/*primera seccion: profile*/
+.profile {
+  position: relative;
+  padding-top: 3.5rem;
+}
 
+.profile__container {
+  row-gap: 2rem;
+}
+
+.profile__data {
+  display: grid;
+  text-align: center;
+}
+
+.profile__profile {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg,
+              hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
+              hsla(var(--hue), var(--sat), var(--lig), .2) 0%,);
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.profile__profile img {
+  width: 75px;
+}
+
+.profile__border {
+  border: 3.5px solid var(--first-color);
+  justify-self: center;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: .75rem;
+}
 
 /*=============== BUTTONS ===============*/
 

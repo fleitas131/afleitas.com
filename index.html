@@ -3,22 +3,81 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--=============== FAVICON ===============-->
         <link rel="shortcut icon" href="" type="image/x-icon">
-        
-        <!--=============== REMIX ICONS ===============-->
-        
-
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="">
-
-        <title>Mini portfolio website - Bedimcode</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="resources/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <title>Arturo Fleitas</title>
     </head>
     <body>
-        <!--=============== HEADER PROFILE ===============-->
+        <!--primera seccion: profile-->
         <header class="profile container">
-            
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__profile">
+                            <img src="resources/img/web profile.jpg" alt="">
+                        </div>
+                    </div>
+                    <h2 class="profile__name">Arturo Fleitas</h2>
+                    <h3 class="profile__profession">Developer & More</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://linkedin.com/in/arturofleitas" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://github.com/fleitas131" target="_blank" class="profile__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/fleitas13/likes" target="_blank" class="profile__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">
+                            3.5
+                        </h3>
+                        <p class="profile__info-description">
+                            Years of <br> work experience
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">
+                            #
+                        </h3>
+                        <p class="profile__info-description">
+                            Personal <br> Projects
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">
+                            #
+                        </h3>
+                        <p class="profile__info-description">
+                            Work <br> Projects
+                        </p>
+                    </div> 
+                </div>
+
+                <div class="profile__buttons">
+                    <a download="" href="resources/pdf/CV - Arturo Fleitas 2023 (English).pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <a href="https://wa.me/+595991593478" target="_blank" class="button button__small">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/arturofleitas" target="_blank" class="button button__small">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </header>
 
         <!--=============== MAIN ===============-->
@@ -45,6 +104,6 @@
         <script src=""></script>
 
         <!--=============== MAIN JS ===============-->
-        <script src=""></script>
+        <script src="resources/js/main.js"></script>
     </body>
 </html>
