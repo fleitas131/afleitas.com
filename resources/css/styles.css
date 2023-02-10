@@ -167,7 +167,7 @@ body.dark-theme {
 }
 
 .profile__profile img {
-  width: 75px;
+  width: 100px;
 }
 
 .profile__border {
@@ -441,6 +441,7 @@ body.dark-theme {
 }
 
 /*responsive*/
+/*pantallas pequeñas*/
 @media screen and (max-width: 328px) {
   .container {
     margin-left: 1rem;
@@ -461,6 +462,7 @@ body.dark-theme {
   }
 }
 
+/*pantallas medianas 1*/
 @media screen and (min-width: 576px) {
   .projects__content {
     grid-template-columns: 332px;
@@ -473,6 +475,7 @@ body.dark-theme {
   }
 }
 
+/*pantallas medianas 2*/
 @media screen and (min-width: 776px) {
   .projects__content, .skills__content {
     grid-template-columns: repeat(2, 332px);
@@ -485,7 +488,7 @@ body.dark-theme {
 
 }
 
-/* For large devices */
+/*pantallas grandes*/
 @media screen and (min-width: 992px) {
   .container {
     margin-left: auto;
@@ -513,7 +516,7 @@ body.dark-theme {
   }
 
   .profile__profile img {
-    width: 90px;
+    width: 130px;
   }
 
   .profile__profession {
